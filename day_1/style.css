@@ -3,6 +3,7 @@
 .home {
   background-color: rgb(218, 217, 217);
   border: 1px solid black;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
 body img {
   width: 250px;
   height: 250px;
+  padding: 20px;
 }
 
 .home .visits_place {
@@ -28,6 +30,10 @@ body img {
 
 .fa-star {
   color: orange
+}
+
+#main_star {
+  color: black;
 }
 
 .home .table {

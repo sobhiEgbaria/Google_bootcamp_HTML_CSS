@@ -8,18 +8,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>sohbi profile page</title>
+  <title>first HTML page</title>
 </head>
 
 <body>
   <div class="home">
-    <h1>simple profile page</h1>
+    <h1>simple HTML page</h1>
     <div class="links">
       <a href="https://www.imdb.com/title/tt0109830/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_gmp">Forrest Gump imdb page
       </a>
       <hr />
       <div class="pic">
-        <img src="../day_1/images/forrest.jpg" alt="forrest" />
+        <img src="./images/gumb1.jpg" alt="forrest" />
+        <img src="./images/gump2.jpg" alt="forrest" />
+        <img src="./images/gumb3.jpg" alt="forrest" />
       </div>
       <blockquote>
         “Life is like a box of chocolates, you never know what you're going to
@@ -27,7 +29,7 @@
       </blockquote>
       <p>
         The history of the United States from the 1950s to the '70s unfolds
-        from the perspective of an Alabama man with an IQ of 75, who yearns to
+        from the perspective of an Alabama man with an IQ of 75, <br> who yearns to
         be reunited with his childhood sweetheart.
       </p>
     </div>
@@ -48,7 +50,7 @@
           <th>المدرسة <i class="fa-solid fa-school"></th>
           <th>الصف <i class="fa-solid fa-chalkboard-user"></i></th>
           <th>المدرس <i class="fa-solid fa-chalkboard-user"></i> </th>
-          <th>التقييم <i class="fa-solid fa-star"></i></th>
+          <th>التقييم <i class="fa-solid fa-star" id="main_star"></i></th>
           <th>ملاحظات <i class="fa-solid fa-comment"></i></th>
         </tr>
         <tr>
@@ -63,21 +65,24 @@
           <td> </td>
           <td>الثالث</td>
           <td>جبارين</td>
-          <td><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          <td><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> <i
+                class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></i>
           <td>لا يوجد</td>
         </tr>
         <tr>
           <td> </td>
           <td>الرابع</td>
           <td>محاجنة</td>
-          <td><i class="fa-solid fa-star"></i>
+          <td><i class="fa-solid fa-star"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i
+                class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></i>
           <td>لا يوجد اي ملاحظات</td>
         </tr>
         <tr>
           <td></td>
           <td>الخامس</td>
           <td>احمد </td>
-          <td><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          <td><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> <i class="fa-regular fa-star"></i> <i
+                class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></i>
           <td>يحتاج اجتهاد اكثر</td>
         </tr>
         <tr>
@@ -85,7 +90,7 @@
           <td>السادس</td>
           <td>علي</td>
           <td><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-              class="fa-solid fa-star"></i></td>
+              class="fa-solid fa-star"> <i class="fa-regular fa-star"></i></i></td>
           <td>نص للتجربة فقط</td>
         </tr>
       </table>
