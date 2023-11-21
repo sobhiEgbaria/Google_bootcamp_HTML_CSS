@@ -1,58 +1,123 @@
 nav {
     border: 2px solid #aaa;
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin: 0 10px;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: gray
+}
+
+nav ul .log {
+    border: gray solid 1px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #fefefe;
+
+}
+
+
+
+nav .search {
+    flex-grow: 1;
+}
+
+nav .search input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
 
 .section-join,
 .callout {
-    border: 2px solid rgb(251, 219, 193);
+    border: 2px rgb(244, 197, 159);
     padding: 15px 20px;
-    margin: 10px;
-    background-color: rgba(255, 166, 0, 0.416);
+    margin: 70px 10px 1px 10px;
+    background-color: rgb(240, 188, 90);
     flex-basis: 300px;
-    border-radius: 50px 50px 10px 50px;
+    border-radius: 35px 35px 5px 35px;
     text-align: center;
+
 }
 
 .section-join img {
     color: red;
 }
 
-.section-join .btn,
+
 .section-join .btn a {
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.475);
     text-decoration: none;
     color: white;
+
 }
 
 
 .section-discover {
-    border: 2px solid rgb(214, 232, 250);
+    border: 2px rgb(214, 232, 250);
     background-color: #aaa;
     padding-bottom: 40PX;
-    border-radius: 50px 50px 50px 10px;
-
-
+    border-radius: 35px 35px 35px 5px;
+    bor
 }
 
 .callout-flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
 .slogan {
-    border: 2px solid #444;
     padding: 5px 20px;
-    width: 300PX;
     margin: 50PX auto;
     text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.slogan strong {
+    color: orange;
+}
+
+.background {
+    background-color: #222222;
+    border-radius: 10px;
+    margin: 25px auto;
+    padding: 15px;
+    width: 1000px;
+
 }
 
 .stats {
-    border: 2px solid #444;
+    display: flex;
+    justify-content: center;
     padding: 5px 20px;
     margin: 10px;
+}
+
+.stats .stat-item {
+    text-align: center;
+    color: white;
+    width: 200px;
+
 }
