@@ -19,7 +19,8 @@ h1 {
 body img {
   width: 250px;
   height: 250px;
-  padding: 20px;
+  padding: 15px;
+
 }
 
 .home .visits_place {
@@ -38,9 +39,17 @@ body img {
 
 .home .table {
   margin-top: 100px;
-  margin-right: 350px;
+  margin-left: 300px;
   align-content: center;
   font-family: 'Noto Kufi Arabic', sans-serif;
+  border: 1px solid black;
+  width: fit-content;
+
+}
+
+.home .table #almotnabi {
+  background-color: black;
+
 
 }
 
@@ -55,4 +64,9 @@ body img {
   border: 1px solid black;
   background-color: gray;
 
+}
+
+#first_row {
+  margin: 0;
+  border: 0;
 }

@@ -1,0 +1,58 @@
+nav {
+    border: 2px solid #aaa;
+    padding: 5px 20px;
+}
+
+.section-join,
+.callout {
+    border: 2px solid rgb(251, 219, 193);
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: rgba(255, 166, 0, 0.416);
+    flex-basis: 300px;
+    border-radius: 50px 50px 10px 50px;
+    text-align: center;
+}
+
+.section-join img {
+    color: red;
+}
+
+.section-join .btn,
+.section-join .btn a {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
+
+
+.section-discover {
+    border: 2px solid rgb(214, 232, 250);
+    background-color: #aaa;
+    padding-bottom: 40PX;
+    border-radius: 50px 50px 50px 10px;
+
+
+}
+
+.callout-flex {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.slogan {
+    border: 2px solid #444;
+    padding: 5px 20px;
+    width: 300PX;
+    margin: 50PX auto;
+    text-align: center;
+}
+
+.stats {
+    border: 2px solid #444;
+    padding: 5px 20px;
+    margin: 10px;
+}
