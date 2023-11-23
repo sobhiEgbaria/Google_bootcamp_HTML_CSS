@@ -58,6 +58,14 @@ nav .search input {
 
 }
 
+.section-discover {
+    border: 2px rgb(214, 232, 250);
+    background-color: #aaa;
+    padding-bottom: 40PX;
+    border-radius: 35px 35px 35px 5px;
+
+}
+
 .section-join img {
     color: red;
 }
@@ -73,13 +81,7 @@ nav .search input {
 }
 
 
-.section-discover {
-    border: 2px rgb(214, 232, 250);
-    background-color: #aaa;
-    padding-bottom: 40PX;
-    border-radius: 35px 35px 35px 5px;
-    bor
-}
+
 
 .callout-flex {
     display: flex;

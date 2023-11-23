@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
@@ -23,3 +24,49 @@ a {
   text-decoration: none;
 
 }
+
+/* start styling  table.html file */
+
+.fa-star {
+  color: orange
+}
+
+#main_star {
+  color: black;
+}
+
+.home .table {
+  margin-top: 100px;
+  margin-left: 300px;
+  align-content: center;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  border: 1px solid black;
+  width: fit-content;
+
+}
+
+.home .table #main_row th {
+  padding: 10px;
+
+}
+
+.home .table #main_row {
+  border: 1px solid black;
+  background-color: gray;
+
+}
+
+.home .table td {
+  background-color: rgb(218, 217, 217);
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+
+#first_row {
+  margin: 0;
+  border: 0;
+}
+
+/* end styling  table.html file */
