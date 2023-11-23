@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Saira:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Saira:,wght@1,700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 1px;
 
 }
 
 body {
-  background-color: rgba(128, 128, 128, 0.226);
   font-family: 'Roboto', sans-serif;
 
 }
 
+/* starting with the nav section */
 h1,
 h2 {
   font-family: 'Saira', sans-serif;
@@ -35,7 +36,6 @@ a {
   justify-content: space-between;
   padding: 20px 100px;
   margin: auto;
-  /* max-width: 1100px; */
 }
 
 .home .logo a {
@@ -71,24 +71,26 @@ a {
 
 }
 
-
+/* starting with the main section */
 .main_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  max-width: 80%;
   margin: auto;
+  background-color: rgba(128, 128, 128, 0.226);
+
 }
 
 .main_section .content {
-  margin: auto 40px;
+  margin: auto 100px;
 }
 
 
 .main_section .content .hi_content {
-  color: rgb(19, 69, 19);
-  font-weight: 600;
+  color: #20c997;
+  font-weight: 700;
+  font-size: large;
 }
 
 .main_section .content h1 {
@@ -98,7 +100,7 @@ a {
 }
 
 .main_section .dev_content {
-  color: rgb(22, 22, 110);
+  color: #20c997;
   font-weight: 600;
 }
 
@@ -126,15 +128,17 @@ a {
 .main_section a {
   color: white;
   font-weight: 300;
-  font-size: medium;
-  background-color: rgb(0, 172, 0);
+  font-size: 20px;
+  background-color: #20c997;
   padding: 12px;
   border-radius: 10px;
   transition: all 0.5s;
 }
 
 .main_section a:hover {
-  background-color: rgba(3, 216, 3, 0.979)
+  background-color: rgba(3, 216, 3, 0.979);
+  font-size: 95%;
+
 }
 
 .main_section .my_img {
@@ -144,6 +148,273 @@ a {
   max-width: 400px;
 
 }
+
+/* starting with about me section */
+
+
+.home .about_me {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.home .about_me .h2 {
+
+  width: max-content;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 900;
+  color: black;
+  padding-top: 50px;
+}
+
+.home .about_me .h2 span {
+  color: #20c997;
+}
+
+
+.home .about_me .line {
+  width: 40%;
+  height: 3px;
+  margin: auto;
+  background-color: #20c997;
+
+}
+
+
+.home .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 100px;
+}
+
+.home .flex-container .about_section h3 {
+  padding: 20px 0px;
+  font-size: 25px;
+  max-width: fit-content;
+}
+
+
+
+.home .flex-container .about_section h3 span {
+  color: #20c997;
+  font-weight: 900;
+}
+
+.home .flex-container .about_section .about_content {
+  max-width: 75%;
+  line-height: 32px;
+}
+
+.home .flex-container .detaelis {
+  margin-right: 20px;
+  min-width: fit-content;
+
+}
+
+.home .flex-container .detaelis p {
+  padding: 25px 0px 0px 0px;
+  border-bottom: gray solid 1px;
+  color: rgb(90, 90, 90);
+}
+
+
+/* starting with the skill section */
+.home .about_me .skill_abilities_container {
+  background-color: #033b4a;
+  height: 90vh;
+  padding-top: 50px;
+
+}
+
+.home .about_me .skill_abilities_container h2 {
+  width: max-content;
+  margin: auto;
+  font-size: 40px;
+  padding-top: 40px;
+  color: white;
+  font-weight: 300;
+}
+
+.home .about_me .skill_abilities_container span {
+  color: #20c997;
+}
+
+.home .about_me .skill_abilities_container .line {
+  width: 10%;
+  height: 3px;
+  margin: auto;
+  background-color: #20c997;
+}
+
+
+.home .about_me .skill_abilities_container .all_skills {
+  background-color: rgba(0, 0, 0, 0.322);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 100px 80px 100px;
+}
+
+.home .about_me .skill_abilities_container .all_skills .skill {
+  background-color: black;
+  padding: 20px 35px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.home .about_me .skill_abilities_container .all_skills .skill:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 5px rgb(43, 43, 43);
+}
+
+.home .about_me .skill_abilities_container .all_skills .skill p {
+  color: white;
+  text-align: center;
+  margin-top: 3px;
+  font-weight: 900;
+}
+
+.home .about_me .skill_abilities_container .all_skills img {
+  width: 70px;
+  height: 70px;
+}
+
+#java {
+  margin-left: 15px;
+}
+
+/* starting with cards section */
+
+.home .cards_container {
+  background-color: rgba(128, 128, 128, 0.226);
+}
+
+.home .cards_container h2 {
+  width: max-content;
+  margin: auto;
+  font-size: 36px;
+  padding-top: 40px;
+  color: black;
+  font-weight: 300;
+}
+
+.home .cards_container span {
+  color: #20c997;
+}
+
+.home .cards_container .line {
+  width: 5%;
+  height: 3px;
+  margin: auto;
+  background-color: #20c997;
+}
+
+.home .cards_container .all_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 100px 80px 100px;
+  padding-bottom: 150px;
+}
+
+
+.home .cards_container .all_cards .card img {
+  width: 200px;
+  height: 200px;
+}
+
+.home .cards_container .all_cards .card p,
+.home .cards_container .all_cards .card h4 {
+  padding: 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/* starting with the contact section */
+
+.home .contact_container {
+  background-color: white;
+  height: 100vh;
+  /* background-color: rgba(128, 128, 128, 0.226); */
+}
+
+.home .contact_container h2 {
+  width: max-content;
+  margin: auto;
+  font-size: 36px;
+  color: black;
+  font-weight: 300;
+}
+
+.home .contact_container span {
+  color: #20c997;
+}
+
+.home .contact_container .contact_detalies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 100px 80px 100px;
+  box-shadow: 10px 10px 5px 12px rgba(128, 128, 128, 0.274);
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #033b4a97;
+
+}
+
+.home .contact_container .contact_detalies .form .input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 130%;
+  border: 1px solid gray;
+  background-color: rgba(255, 250, 250, 0.753);
+}
+
+.home .contact_container .contact_detalies .form .submit {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 40%;
+  border: 1px solid gray;
+  background-color: rgba(255, 250, 250, 0.753);
+}
+
+.home .contact_container .contact_detalies .form .submit:hover {
+  cursor: pointer;
+  background-color: #20c997;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
