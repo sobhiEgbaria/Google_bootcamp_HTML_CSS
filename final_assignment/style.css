@@ -8,6 +8,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 
@@ -84,8 +88,21 @@ a {
 
 .main_section .content {
   margin: auto 100px;
+  animation: main_section_animation 1s ease-out;
 }
 
+@keyframes main_section_animation {
+  0% {
+    transform: translateY(600px);
+
+
+  }
+
+  100% {
+    transform: translate(0px);
+
+  }
+}
 
 .main_section .content .hi_content {
   color: #20c997;
@@ -125,7 +142,7 @@ a {
 }
 
 
-.main_section a {
+.main_section #about_me_link {
   color: white;
   font-weight: 300;
   font-size: 20px;
@@ -135,7 +152,7 @@ a {
   transition: all 0.5s;
 }
 
-.main_section a:hover {
+.main_section #about_me_link:hover {
   background-color: rgba(3, 216, 3, 0.979);
   font-size: 95%;
 
@@ -146,7 +163,18 @@ a {
   max-height: fit-content;
   margin: auto 40px;
   max-width: 400px;
+  animation: my_pic_animation 1s ease-out;
 
+}
+
+@keyframes my_pic_animation {
+  0% {
+    transform: translate(500px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
 }
 
 /* starting with about me section */
