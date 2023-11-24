@@ -431,7 +431,7 @@ a {
 }
 
 
-/* responsive  for phons with screen =  420px, or less */
+/* responsive the page is not full responsive, just for phones with 420px or less */
 
 @media (max-width: 420px) {
 
@@ -569,27 +569,82 @@ a {
     transition: 0.3s;
     margin: 1px;
   }
-}
 
-/*  contact section */
+  /*  contact section */
 
-.home .contact_container .contact_detalies .form {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  outline: none;
-  width: 130%;
-  border: 1px solid gray;
+  .home .contact_container .contact_detalies img {
+    opacity: 0.2;
+  }
 }
 
 
-.home .contact_container .contact_detalies img {
-  opacity: 0.5;
-}
 
-/* THE END */
 
-/* ================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* start styling  table.html file */
 .fa-star {
