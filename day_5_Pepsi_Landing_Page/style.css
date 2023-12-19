@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  margin: 0 7rem;
+  height: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.home {
+  height: 100vh;
+  background-color: #0162be;
+  color: white;
+}
+
+nav .logo {
+  width: 50px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  padding: 25px;
+  color: white;
+}
+
+.home .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+}
+
+.home .content img {
+  width: 220px;
+  animation: animation_I_P 1s ease-out;
+}
+.home .content .content_icons {
+  display: grid;
+  margin-left: 20px;
+  animation: animation_I_P 1s ease-out;
+}
+.home .content .content_icons i {
+  padding: 5px;
+}
+
+.home .content .content_text h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.home .content .content_text h1 span {
+  font-size: 70px;
+}
+.home .content .content_text p {
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  width: 60%;
+}
+
+.btn {
+  font-size: 14px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #0162be;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+
+.home .three_pepsi {
+  width: 100px;
+  margin: auto;
+  animation: three_pepsi 1s ease-out;
+}
+
+@keyframes animation_I_P {
+  0% {
+    transform: translate(500px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes three_pepsi {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 412px) {
+  .container {
+    margin: 0 1rem;
+  }
+  nav .logo {
+    width: 25px;
+  }
+  .navBar {
+    padding: 10px;
+  }
+  nav ul a {
+    padding: 5px;
+    color: white;
+  }
+  .home .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+  }
+  .home .content img {
+    width: 120px;
+  }
+  .home .content .content_text h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .home .content .content_text h1 span {
+    font-size: 30px;
+  }
+  .home .content .content_text p {
+    margin-bottom: 15px;
+    line-height: 1.4;
+    width: 100%;
+  }
+  .btn {
+    font-size: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+  }
+  .home .three_pepsi {
+    width: 70px;
+    margin: auto;
+    animation: three_pepsi 1s ease-out;
+  }
+}
