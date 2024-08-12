@@ -27,7 +27,7 @@ body {
 .box-3 {
   position: fixed;
   top: 0;
-  right: ;
+  right: 10;
   z-index: 2;
 }
 
