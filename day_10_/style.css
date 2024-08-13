@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #433f63;
+}
+
+.container {
+  background-color: rgb(243, 241, 241);
+  max-width: 80%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 80px;
+  padding: 30px;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 5px rgb(184, 184, 184);
+  border-radius: 5px;
+  flex: 1;
+}
+
+
+.card h2 {
+  margin: 20px 0px;
+
+}
+
+.card-free h2 {
+  background-color: gray;
+}
+
+.card-pro h2 {
+  background-color: rgb(38, 38, 99);
+}
+
+.card-enterprise h2 {
+  background-color: rgb(128, 55, 55);
+}
+
+
+
+.card ul {
+  justify-self: flex-start;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.card .price {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.card .price-info {
+  padding: 20px;
+}
+
+.card .main-text {
+  padding: 5px;
+  margin: 0px 25px;
+  font-size: medium;
+  text-align: center;
+
+}
+
+.card a {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+  margin: 30px;
+}
+
+.card ul li {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.card ul li i {
+  color: greenyellow;
+  padding: 5px;
+}
