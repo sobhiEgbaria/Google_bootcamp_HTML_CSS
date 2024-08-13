@@ -12,7 +12,8 @@ body {
 }
 
 .main {
-  margin-top: 100px;
+  max-width: 400px;
+  margin: 40px auto;
 }
 
 .card {
@@ -21,7 +22,7 @@ body {
   justify-content: space-between;
   border: 1px saddlebrown solid;
   max-width: 400px;
-  margin: 0px auto 20px auto;
+  margin-bottom: 20px;
   border-radius: 5px;
   border: none;
   background-color: aliceblue;
