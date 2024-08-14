@@ -116,3 +116,25 @@ body {
   color: greenyellow;
   margin-right: 10px;
 }
+
+/* media queries */
+
+@media(max-width: 768px) {
+
+  .pricing {
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .container {
+    background-color: rgb(243, 241, 241);
+    max-width: 1100px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 70px 60px;
+  }
+
+}
