@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --container-width-large: 1400px;
+  --container-width: 1100px;
+  --container-width-small: 900px;
+  --bg-primary: #fcf5e9;
+}
+
+body {
+  font-family: "Open San", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* nav bar  */
+header {
+  margin: 1.5rem auto;
+  max-width: var(--container-width-small);
+}
+
+header .logo {
+  max-width: 130px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 16px;
+}
+
+header nav ul a {
+  padding: 0.5rem 1rem;
+}
+
+header nav ul a:hover {
+  background-color: var(--bg-primary);
+}
+
+
+/* hero section the second section */
+
+.hero {
+  height: 500px;
+  max-width: var(--container-width-small);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: normal;
+  text-align: center;
+}
+
+.hero h2 span {
+  background-color: var(--bg-primary);
+}
+
+/* gallery section */
+
+.gallery {
+  max-width: var(--container-width);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-img {
+  width: calc(33.333% - 20px);
+  border-radius: 10px;
+}
+
+.gallery-img img {
+  border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+  max-width: var(--container-width-large);
+  border-top: #333 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+footer img {
+  max-width: 130px;
+  margin: 50px 0px 50px 100px;
+}
+
+footer .details h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+footer .details p {
+  margin-bottom: 5px;
+}
+
+footer .social_media {
+
+  margin: 50px 100px 50px 0px;
+}
+
+footer .social_media h4,
+footer .social_media i {
+
+  padding: 5px;
+}
+
+
+/* about page */
+
+.Our_Services {
+  background-color: #333;
+  max-width: var(--container-width-large);
+  height: 350px;
+}
+
+.Our_Services h2 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Our_Services .Our_Services_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+  color: white;
+}
+
+.Our_Services .Our_Services_content .content {
+  margin: 30px 50px;
+}
+
+.Our_Services .Our_Services_content .content h3 {
+  margin-bottom: 10px;
+}
+
+/* team section */
+
+.Our_Team {
+  background-color: white;
+  max-width: var(--container-width-large);
+  height: 350px;
+  margin: 50px 50px 100px 50px;
+
+}
+
+.Our_Team h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Our_Team .team_members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.Our_Team .team_members .member img {
+  border-radius: 10px;
+}
+
+.Our_Team h4,
+.Our_Team p {
+  color: #333;
+}
+
+/* contact page */
+
+.bg-dark {
+  height: 500px;
+  max-width: var(--container-width-large);
+  background-color: #141414;
+  color: white;
+}
+
+.bg-dark span {
+
+  color: black;
+}
+
+.contact {
+  max-width: var(--container-width-small);
+  text-align: center;
+  margin: 50px auto;
+
+}
+
+.contact h2,
+.contact p {
+  margin-bottom: 40px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: #333 1px solid;
+  margin-bottom: 20px;
+  padding: 25px 0px;
+  resize: none;
+  outline: 0;
+  font-size: inherit;
+  font-family: inherit;
+
+}
+
+.contact form button {
+  width: 80%;
+  border: none;
+  margin-bottom: 20px;
+  padding: 25px 0px;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 10px;
+
+}
+
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+
+  .gallery {
+    max-width: var(--container-width);
+    gap: 10px;
+  }
+
+  .gallery-img {
+    width: calc(31.333% - 20px);
+  }
+
+  footer {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer img {
+    max-width: 130px;
+    margin: 20px auto 20px auto;
+  }
+
+  footer .social_media {
+
+    margin: 20px auto 20px auto;
+    text-align: center;
+  }
+
+  footer .details h4,
+  footer .details p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: center;
+
+  }
+
+}
