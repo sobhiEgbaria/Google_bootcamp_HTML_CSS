@@ -71,3 +71,44 @@ main aside li {
   padding: 10px;
   border-bottom: 1px solid rgb(148, 145, 145);
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .header {
+    background-color: coral;
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    border-bottom: #585656 1px solid;
+    width: 100%;
+    color: #333;
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+
+  }
+
+  main aside {
+    width: 100%;
+    margin-right: 50px;
+    background-color: rgb(183, 183, 183);
+    text-align: center;
+
+
+  }
+
+
+
+}
